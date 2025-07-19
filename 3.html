@@ -1,0 +1,175 @@
+<html>
+<head>
+<title>EVENTS</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .bordered {
+    width: 95%;
+    height: 150%;
+    padding: 10px;
+    border: 20px outset lightgray;
+  }
+</style>
+<div class="bordered">
+<style>
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: gray;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  padding: 14px 15px;
+  text-decoration: none;
+  font-size: 18px;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.topnav a.active {
+  background-color: tomato;
+  color: white;
+}
+</style>
+<body>
+<div class="topnav">
+  <a class="active" href="index.html">Home</a>
+  <a href="images.html">Images</a>
+  <a href="about.html">About</a>
+  <a href="feedback.html">Feedback</a>
+</div>
+<body>
+<style>
+.modal {
+  display: none;
+  position: fixed;
+  padding-top: 100px; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%;
+  background-color: rgba(0,0,0,0.9);
+}
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body style="background-color:Aquamarine;">
+
+
+<img id="myImg" src="C:/Users/91824/Pictures/MONKA/monu/37.png"  alt="ZPHS JULUR" style="width:500px;height:300px;float:right;">
+
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+
+<script>
+var modal = document.getElementById("myModal");
+var img = document.getElementById("myImg");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+var span = document.getElementsByClassName("close")[0];
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+</script>
+<h1 style="color:blue;">
+EVENTS</h1>
+<p style="font-size:22px;color:black;">
+ Many events are held at ZPHS Julur school,like Self Government Day, Children's Day, Teachers' Day, Farewell Party etc.,
+ and many more competitions.Science fair events are also held. Every year 2 students from 10th and 9th class will be selected and projects will 
+be prepared and sent to the Science Fair compition.
+Government will give Money to prepare the project. In ZPHS julur Aug 15 and Jan 26 are very well celebrated. 
+Big Help related events are also celebrated. (There are many details on the next page about Big Help. Please check it once) 
+Students are very interesting and exciting at event time.
+They dance and sing at big events. Teachers teach dance to students. Aug 15 and jan 26 are celebrated very richly. 
+Students dance on patriotic songs and sing good patriotic songs and Speeches are given.Julur Sarpanch and other elders attend 
+all the events which are held at school.
+On Children's Day Teachers distribute chocolates to all students.Competitions are held for every Children's Day. 
+Prizes will be given to those who win compitions like drawing competition, debate competitions, quiz games, essay writing, etc.,
+On Teachers Days Students wish all the teachers, giving them gifts and honoring them. 
+On Self Government Day some students should select the subject of their choice and teach that subject like a teacher for a whole day. 
+Students are given prizes for best performance.
+9th class students will give a party to 10th class students. 
+Whole Schools will participate in these events. All 10th class students give speeches and share their memories.
+when teachers are transfor or retire the whole school will honor them and gives gifts to them and wish them. </p>
+
+<h3>MORE DETAILS<h3>
+<ul> 
+<li><a href = "2.html"target="_blank">MID-DAY MEALS</a></li><br/>
+<li><a href = "4.html"target="_blank">SPORTS</a></li><br/>
+<li><a href = "5.html"target="_blank">BIG HELP</a></li><br/>
+</ul> 
+</body>
+</div>
+</head>
+</html>

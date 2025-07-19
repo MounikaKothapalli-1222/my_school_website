@@ -1,0 +1,219 @@
+<html>
+<head>
+<title>MID-DAY MEALS</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .bordered {
+    width: 95%;
+    height: 150%;
+    padding: 10px;
+    border: 20px outset lightgray;
+  }
+</style>
+<div class="bordered">
+<style>
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: gray;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  padding: 14px 15px;
+  text-decoration: none;
+  font-size: 18px;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.topnav a.active {
+  background-color: tomato;
+  color: white;
+}
+</style>
+<body style="background-color:Aquamarine;">
+<div class="topnav">
+  <a class="active" href="index.html">Home</a>
+  <a href="images.html">Images</a>
+  <a href="about.html">About</a>
+  <a href="feedback.html">Feedback</a>
+</div>
+<body>
+<style>
+.modal {
+  display: none;
+  position: fixed;
+  padding-top: 100px; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%;
+  background-color: rgba(0,0,0,0.9);
+}
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+</style>
+</head
+<body>
+<img id="myImg" src="C:/Users/91824/Pictures/MONKA/monu/3.jpg"  alt="MID-DAY MEALS" style="width:500px;height:300px;float:right;">
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+
+<script>
+var modal = document.getElementById("myModal");
+var img = document.getElementById("myImg");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+var span = document.getElementsByClassName("close")[0];
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+</script>
+<h1 style="color:blue;">MID-DAY MEALS</h1>
+
+<p style="font-size:22px;background-color:balck;"> ZPHS Zuluru Schools Mid Day Meals Scheme will be launched in OCT 2007.
+There is also a separate room for cooking.Three ladies prepare food every day.
+The three ladies have been preparing food since the start of the Mid Day Meals scheme. 
+The current schools have 346 students. Daily prepares food for 300 students.Teachers also have lunch at the school.The food is very tasty. 
+The government pays for all the goods and materials needed for cooking. Every day there is a time table, according to which they cook.
+Every Wednesday and friday egg is laid out for each student.
+
+Special food items are cooked at events time like biryani rice, chicken etc.,</p>
+<style>
+table, th, td {
+  border:1px solid black;
+  border-collapse: collapse;
+  border-color: gray;
+}
+table.center {
+  margin-left: auto; 
+  margin-right: auto;
+}
+tr:nth-child(even) {
+  background-color: lightgray;
+}
+</style>
+<body>
+<br/>
+<h2>MID-DAY MEALS MENU</h2>
+<table class="center">
+<table width="50%">
+
+  <tr>
+    <th>DAY</th>
+    <th>FOOD ITEMS</th>
+   
+  </tr>
+  <tr>
+    <td>MONDAY</td>
+    <td>Rice,vegetables curry</td>
+    
+  </tr>
+  <tr>
+    <td>TUESDAY</td>
+    <td>Rice,Dal with leafy vegetables</td>
+  </tr>
+ <tr>
+    <td>WEDNESDAY</td>
+    <td>Rice,Boiled Egg,vegetables curry</td>
+    
+  </tr>
+ <tr>
+    <td>THURSDAY</td>
+    <td>Rice,Sambar</td>
+    
+  </tr>
+ <tr>
+    <td>FRIDAY</td>
+    <td>Rice,Boiled Egg,sambar</td>
+    
+  </tr>
+ <tr>
+    <td>SATURDAY</td>
+    <td>Rice,vegetables curry</td>
+    
+  </tr>
+</table>
+<h3>MORE DETAILS<h3>
+<ul>
+
+<li><a href = "3.html"target="_blank">EVENTS</a></li><br/>
+<li><a href = "4.html"target="_blank">SPORTS</a></li><br/>
+<li><a href = "5.html"target="_blank">BIG HELP</a></li><br/>
+
+</ul>
+</body>
+</style>
+</div>
+</head>
+</html>
